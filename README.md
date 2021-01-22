@@ -1,4 +1,4 @@
-# Gradient Comparison Between Neural Network MModels Implemented using Flux and Pytorch
+# Gradient Comparison Between Neural Network Models Implemented using Flux and Pytorch
 
 This repository helps to compare the gradients of NN models developed in python and Julia. Pytorch is used to develop NN  models in python and Flux.jl is used to develop NN models in Julia.
 
