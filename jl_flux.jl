@@ -1,6 +1,4 @@
 using FLux
-using Flux: Data.DataLoader
-using Flux: @epochs
 using NPZ
 
 py_weigths = npzread("weights.npy");
@@ -29,6 +27,7 @@ opt = Momentum(0.01, 0.9)
 
 L(x, y) = Flux.Losses.mse(m(x), y)
 
+#calculate gradient
 gs = gradient(ps) do
 	L(f,y)
 end
